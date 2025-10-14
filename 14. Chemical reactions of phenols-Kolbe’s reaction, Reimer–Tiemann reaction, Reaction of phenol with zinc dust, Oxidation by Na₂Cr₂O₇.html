@@ -112,135 +112,261 @@
 const Q = [
   {
     "id": "q1",
-    "question": "Kolbe’s reaction involves reaction of phenol with NaOH followed by CO₂ under pressure to give:",
-    "options": ["Salicylic acid", "Benzoic acid", "Phenylacetic acid", "Acetylsalicylic acid"],
-    "solution": "Salicylic acid (o-hydroxybenzoic acid)",
-    "type": "reaction"
+    "text": "Kolbe’s reaction involves the reaction of phenol with \\( NaOH \\) followed by \\( CO_2 \\) under pressure to give:",
+    "options": [
+      "A. Salicylic acid",
+      "B. Benzoic acid",
+      "C. Phenylacetic acid",
+      "D. Acetylsalicylic acid"
+    ],
+    "correct": "A",
+    "solution": "Phenol reacts with \\( NaOH \\) to form sodium phenoxide, which reacts with \\( CO_2 \\) under pressure and acidification to give salicylic acid (o-hydroxybenzoic acid).",
+    "solution_steps": [
+      "1. \\( C_6H_5OH + NaOH \\rightarrow C_6H_5ONa + H_2O \\)",
+      "2. \\( C_6H_5ONa + CO_2 \\xrightarrow{125°C, 5-7~atm} o\text{-}HOC_6H_4COONa \\)",
+      "3. Acidification gives salicylic acid: \\( o\text{-}HOC_6H_4COOH \\)."
+    ]
   },
   {
     "id": "q2",
-    "question": "Which intermediate is formed in Kolbe’s reaction?",
-    "options": ["Phenoxide ion", "Phenyl carbocation", "Phenyl radical", "Phenyl carbene"],
-    "solution": "Phenoxide ion",
-    "type": "conceptual"
+    "text": "Which intermediate is formed in Kolbe’s reaction?",
+    "options": [
+      "A. Phenoxide ion",
+      "B. Phenyl carbocation",
+      "C. Phenyl radical",
+      "D. Phenyl carbene"
+    ],
+    "correct": "A",
+    "solution": "Phenoxide ion forms when phenol reacts with \\( NaOH \\); this activates the ring toward electrophilic substitution by \\( CO_2 \\).",
+    "solution_steps": [
+      "1. Phenol reacts with \\( NaOH \\) to form \\( C_6H_5O^- \\) (phenoxide ion).",
+      "2. The negative charge delocalizes into the ring, increasing electron density at ortho and para positions.",
+      "3. This promotes electrophilic attack by \\( CO_2 \\)."
+    ]
   },
   {
     "id": "q3",
-    "question": "Reimer–Tiemann reaction of phenol with CHCl₃ and NaOH gives:",
-    "options": ["Salicylaldehyde", "Benzoic acid", "Anisole", "Phenyl acetate"],
-    "solution": "Salicylaldehyde (o-hydroxybenzaldehyde)",
-    "type": "reaction"
+    "text": "Reimer–Tiemann reaction of phenol with \\( CHCl_3 \\) and \\( NaOH \\) gives:",
+    "options": [
+      "A. Salicylaldehyde",
+      "B. Benzoic acid",
+      "C. Anisole",
+      "D. Phenyl acetate"
+    ],
+    "correct": "A",
+    "solution": "Phenol reacts with \\( CHCl_3 \\) and \\( NaOH \\) to form salicylaldehyde (o-hydroxybenzaldehyde).",
+    "solution_steps": [
+      "1. \\( CHCl_3 \\) and \\( NaOH \\) generate dichlorocarbene (:\\( CCl_2 \\)).",
+      "2. The carbene attacks the activated ortho position of phenoxide ion.",
+      "3. Hydrolysis of the intermediate yields salicylaldehyde."
+    ]
   },
   {
     "id": "q4",
-    "question": "What is the electrophile in Reimer–Tiemann reaction?",
-    "options": ["CCl₃⁻", "CCl₃⁺", ":CCl₂ (dichlorocarbene)", "Cl⁻"],
-    "solution": ":CCl₂ (dichlorocarbene)",
-    "type": "conceptual"
+    "text": "What is the electrophile in the Reimer–Tiemann reaction?",
+    "options": [
+      "A. \\( CCl_3^- \\)",
+      "B. \\( CCl_3^+ \\)",
+      "C. :\\( CCl_2 \\) (dichlorocarbene)",
+      "D. \\( Cl^- \\)"
+    ],
+    "correct": "C",
+    "solution": "The electrophile in the Reimer–Tiemann reaction is dichlorocarbene (:\\( CCl_2 \\)), formed by dehydrohalogenation of chloroform in basic medium.",
+    "solution_steps": [
+      "1. \\( CHCl_3 + OH^- \\rightarrow CCl_3^- + H_2O \\)",
+      "2. \\( CCl_3^- \\rightarrow :CCl_2 + Cl^- \\)",
+      "3. :\\( CCl_2 \\) acts as the electrophile attacking the ortho position."
+    ]
   },
   {
     "id": "q5",
-    "question": "Phenol reacts with zinc dust upon heating to form:",
-    "options": ["Benzene", "Cyclohexane", "Toluene", "Anisole"],
-    "solution": "Benzene",
-    "type": "reaction"
+    "text": "Phenol reacts with zinc dust upon heating to form:",
+    "options": [
+      "A. Benzene",
+      "B. Cyclohexane",
+      "C. Toluene",
+      "D. Anisole"
+    ],
+    "correct": "A",
+    "solution": "Phenol is reduced by zinc dust to benzene, as zinc removes the oxygen atom from the hydroxyl group.",
+    "solution_steps": [
+      "1. \\( C_6H_5OH + Zn \\xrightarrow{heat} C_6H_6 + ZnO \\)",
+      "2. Zinc acts as a reducing agent.",
+      "3. This is a deoxygenation reaction."
+    ]
   },
   {
     "id": "q6",
-    "question": "Which statement explains the role of zinc dust in reaction with phenol?",
+    "text": "Which statement explains the role of zinc dust in the reaction with phenol?",
     "options": [
-      "It oxidizes phenol",
-      "It reduces phenol to benzene by removing oxygen atom",
-      "It adds chlorine to phenol",
-      "It dehydrates phenol"
+      "A. It oxidizes phenol",
+      "B. It reduces phenol to benzene by removing the oxygen atom",
+      "C. It adds chlorine to phenol",
+      "D. It dehydrates phenol"
     ],
-    "solution": "It reduces phenol to benzene by removing oxygen atom",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "Zinc dust reduces phenol to benzene by removing the oxygen atom as zinc oxide.",
+    "solution_steps": [
+      "1. Phenol reacts with zinc at high temperature.",
+      "2. The –OH group is removed as \\( ZnO \\).",
+      "3. The aromatic ring remains intact, forming benzene."
+    ]
   },
   {
     "id": "q7",
-    "question": "Oxidation of phenol using Na₂Cr₂O₇/H₂SO₄ produces:",
-    "options": ["Benzoquinone", "Catechol", "Hydroquinone", "Cyclohexanone"],
-    "solution": "Benzoquinone",
-    "type": "reaction"
+    "text": "Oxidation of phenol using \\( Na_2Cr_2O_7/H_2SO_4 \\) produces:",
+    "options": [
+      "A. Benzoquinone",
+      "B. Catechol",
+      "C. Hydroquinone",
+      "D. Cyclohexanone"
+    ],
+    "correct": "A",
+    "solution": "Phenol oxidizes with acidified \\( Na_2Cr_2O_7 \\) to form benzoquinone, a conjugated diketone compound.",
+    "solution_steps": [
+      "1. Oxidation removes hydrogen atoms from phenol.",
+      "2. A conjugated diketone (benzoquinone) forms.",
+      "3. The reaction involves a change in oxidation state of carbon atoms."
+    ]
   },
   {
     "id": "q8",
-    "question": "In Kolbe’s reaction, why is the product mainly ortho substituted?",
+    "text": "In Kolbe’s reaction, why is the product mainly ortho-substituted?",
     "options": [
-      "Because CO₂ is bulky",
-      "Because phenoxide ion stabilizes ortho attack more due to H-bonding",
-      "Because para position is blocked",
-      "Because of steric hindrance at ortho position"
+      "A. Because \\( CO_2 \\) is bulky",
+      "B. Because phenoxide ion stabilizes ortho attack more due to H-bonding",
+      "C. Because para position is blocked",
+      "D. Because of steric hindrance at ortho position"
     ],
-    "solution": "Because phenoxide ion stabilizes ortho attack more due to H-bonding",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "The phenoxide ion forms a hydrogen bond that stabilizes the ortho carboxylate intermediate, favoring ortho substitution.",
+    "solution_steps": [
+      "1. The negative charge on oxygen enhances electron density at ortho and para sites.",
+      "2. Ortho attack is stabilized by intramolecular hydrogen bonding.",
+      "3. Hence, salicylic acid (ortho product) predominates."
+    ]
   },
   {
     "id": "q9",
-    "question": "What happens if phenol is oxidized mildly instead of strongly?",
-    "options": ["Catechol and hydroquinone are formed", "Benzoquinone is formed", "Benzaldehyde is formed", "Anisole is formed"],
-    "solution": "Catechol and hydroquinone are formed",
-    "type": "conceptual"
+    "text": "What happens if phenol is oxidized mildly instead of strongly?",
+    "options": [
+      "A. Catechol and hydroquinone are formed",
+      "B. Benzoquinone is formed",
+      "C. Benzaldehyde is formed",
+      "D. Anisole is formed"
+    ],
+    "correct": "A",
+    "solution": "Mild oxidation of phenol yields dihydroxy derivatives such as catechol and hydroquinone.",
+    "solution_steps": [
+      "1. Partial oxidation introduces hydroxyl groups.",
+      "2. Catechol (1,2-dihydroxybenzene) and hydroquinone (1,4-dihydroxybenzene) form.",
+      "3. Stronger oxidation converts them into benzoquinone."
+    ]
   },
   {
     "id": "q10",
-    "question": "Reimer–Tiemann reaction fails if chloroform is replaced by dichloromethane because:",
+    "text": "Reimer–Tiemann reaction fails if chloroform is replaced by dichloromethane because:",
     "options": [
-      "CH₂Cl₂ does not form dichlorocarbene",
-      "It is a weaker solvent",
-      "It produces chloroform as byproduct",
-      "It produces phenoxide ion"
+      "A. \\( CH_2Cl_2 \\) does not form dichlorocarbene",
+      "B. It is a weaker solvent",
+      "C. It produces chloroform as a byproduct",
+      "D. It produces phenoxide ion"
     ],
-    "solution": "CH₂Cl₂ does not form dichlorocarbene",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "Dichloromethane cannot form dichlorocarbene (:\\( CCl_2 \\)) under alkaline conditions, so the reaction does not proceed.",
+    "solution_steps": [
+      "1. Reimer–Tiemann requires dichlorocarbene as the electrophile.",
+      "2. \\( CH_2Cl_2 \\) lacks sufficient chlorine atoms for elimination to form :\\( CCl_2 \\).",
+      "3. Thus, the reaction fails."
+    ]
   },
   {
     "id": "q11",
-    "question": "Which of the following is obtained on oxidation of p-nitrophenol with Na₂Cr₂O₇?",
-    "options": ["p-Nitrobenzoquinone", "p-Aminophenol", "Nitrobenzene", "Benzoquinone"],
-    "solution": "p-Nitrobenzoquinone",
-    "type": "product-prediction"
+    "text": "Which of the following is obtained on oxidation of p-nitrophenol with \\( Na_2Cr_2O_7 \\)?",
+    "options": [
+      "A. p-Nitrobenzoquinone",
+      "B. p-Aminophenol",
+      "C. Nitrobenzene",
+      "D. Benzoquinone"
+    ],
+    "correct": "A",
+    "solution": "Oxidation of p-nitrophenol introduces a carbonyl group, forming p-nitrobenzoquinone.",
+    "solution_steps": [
+      "1. Oxidizing agents such as \\( Na_2Cr_2O_7/H_2SO_4 \\) oxidize the phenolic ring.",
+      "2. The –OH group converts into a carbonyl group.",
+      "3. The final product is p-nitrobenzoquinone."
+    ]
   },
   {
     "id": "q12",
-    "question": "Which reaction is used in the industrial preparation of salicylic acid (aspirin precursor)?",
-    "options": ["Kolbe’s reaction", "Reimer–Tiemann reaction", "Cannizzaro reaction", "Friedel–Crafts acylation"],
-    "solution": "Kolbe’s reaction",
-    "type": "conceptual"
+    "text": "Which reaction is used in the industrial preparation of salicylic acid (aspirin precursor)?",
+    "options": [
+      "A. Kolbe’s reaction",
+      "B. Reimer–Tiemann reaction",
+      "C. Cannizzaro reaction",
+      "D. Friedel–Crafts acylation"
+    ],
+    "correct": "A",
+    "solution": "Salicylic acid (used to make aspirin) is prepared industrially via the Kolbe–Schmitt reaction.",
+    "solution_steps": [
+      "1. Sodium phenoxide reacts with \\( CO_2 \\) under pressure.",
+      "2. The product is salicylic acid after acidification.",
+      "3. This process is called the Kolbe–Schmitt reaction."
+    ]
   },
   {
     "id": "q13",
-    "question": "What is the effect of using excess chloroform in Reimer–Tiemann reaction?",
+    "text": "What is the effect of using excess chloroform in the Reimer–Tiemann reaction?",
     "options": [
-      "Salicylaldehyde yield increases",
-      "Salicylic acid forms",
-      "Bis-formylation occurs giving dihydroxybenzaldehyde",
-      "No effect"
+      "A. Salicylaldehyde yield increases",
+      "B. Salicylic acid forms",
+      "C. Bis-formylation occurs giving dihydroxybenzaldehyde",
+      "D. No effect"
     ],
-    "solution": "Bis-formylation occurs giving dihydroxybenzaldehyde",
-    "type": "reasoning"
+    "correct": "C",
+    "solution": "Excess chloroform generates more dichlorocarbene, leading to formylation at both ortho and para positions.",
+    "solution_steps": [
+      "1. Higher concentration of :\\( CCl_2 \\) increases multiple substitutions.",
+      "2. Two –CHO groups are introduced.",
+      "3. The product is dihydroxybenzaldehyde."
+    ]
   },
   {
     "id": "q14",
-    "question": "What is the order of reactivity of phenol, benzene, and toluene towards Kolbe’s reaction?",
-    "options": ["Phenol > Toluene > Benzene", "Benzene > Phenol > Toluene", "Toluene > Benzene > Phenol", "All are same"],
-    "solution": "Phenol > Toluene > Benzene",
-    "type": "conceptual"
+    "text": "What is the order of reactivity of phenol, benzene, and toluene towards Kolbe’s reaction?",
+    "options": [
+      "A. Phenol > Toluene > Benzene",
+      "B. Benzene > Phenol > Toluene",
+      "C. Toluene > Benzene > Phenol",
+      "D. All are same"
+    ],
+    "correct": "A",
+    "solution": "Phenol is most reactive due to activation by the –OH group; toluene is less reactive due to +I effect; benzene is least reactive.",
+    "solution_steps": [
+      "1. –OH group in phenol strongly activates the ring.",
+      "2. –CH₃ group in toluene activates weakly.",
+      "3. Benzene has no activating group, hence least reactive."
+    ]
   },
   {
     "id": "q15",
-    "question": "Why does phenol give a colored product upon oxidation with Na₂Cr₂O₇?",
+    "text": "Why does phenol give a colored product upon oxidation with \\( Na_2Cr_2O_7 \\)?",
     "options": [
-      "Formation of benzoquinone with extended conjugation",
-      "Formation of benzyl carbocation",
-      "Formation of benzene",
-      "Formation of anisole"
+      "A. Formation of benzoquinone with extended conjugation",
+      "B. Formation of benzyl carbocation",
+      "C. Formation of benzene",
+      "D. Formation of anisole"
     ],
-    "solution": "Formation of benzoquinone with extended conjugation",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "The colored product is due to the formation of benzoquinone, which has extended conjugation and absorbs visible light.",
+    "solution_steps": [
+      "1. Oxidation converts phenol into benzoquinone.",
+      "2. Benzoquinone has a conjugated double-bond system.",
+      "3. This conjugation causes color due to visible-light absorption."
+    ]
   }
 ]
+
 ;
 
 
