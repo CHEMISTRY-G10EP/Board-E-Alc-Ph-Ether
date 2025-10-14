@@ -112,80 +112,176 @@
 const Q = [
   {
     "id": "q1",
-    "question": "Methanol is commercially produced by catalytic hydrogenation of CO. Which catalyst is used?",
-    "options": ["ZnO-Cr₂O₃", "Cu-ZnO-Cr₂O₃", "Fe-Ni alloy", "Pt-Rh"],
-    "solution": "Cu-ZnO-Cr₂O₃",
-    "type": "reaction"
+    "text": "Methanol is commercially produced by catalytic hydrogenation of CO. Which catalyst is used?",
+    "options": [
+      "A. ZnO-Cr₂O₃",
+      "B. Cu-ZnO-Cr₂O₃",
+      "C. Fe-Ni alloy",
+      "D. Pt-Rh"
+    ],
+    "correct": "B",
+    "solution": "Methanol is prepared industrially by hydrogenation of carbon monoxide in the presence of a Cu-ZnO-Cr₂O₃ catalyst.",
+    "solution_steps": [
+      "1. CO reacts with H₂ under high temperature and pressure.",
+      "2. Cu-ZnO-Cr₂O₃ catalyzes the reaction efficiently.",
+      "3. The reaction: \\( CO + 2H_2 \\xrightarrow{Cu-ZnO-Cr_2O_3} CH_3OH \\)"
+    ]
   },
   {
     "id": "q2",
-    "question": "Which alcohol is also called wood spirit?",
-    "options": ["Methanol", "Ethanol", "Glycerol", "Isopropanol"],
-    "solution": "Methanol",
-    "type": "conceptual"
+    "text": "Which alcohol is also called wood spirit?",
+    "options": [
+      "A. Methanol",
+      "B. Ethanol",
+      "C. Glycerol",
+      "D. Isopropanol"
+    ],
+    "correct": "A",
+    "solution": "Methanol is historically obtained from the destructive distillation of wood and is therefore called wood spirit.",
+    "solution_steps": [
+      "1. Wood contains cellulose and hemicellulose.",
+      "2. Distillation of wood produces methanol along with other volatiles.",
+      "3. Methanol is called wood spirit."
+    ]
   },
   {
     "id": "q3",
-    "question": "Consumption of methanol causes blindness due to formation of:",
-    "options": ["Formic acid", "Formaldehyde", "Acetaldehyde", "Acetic acid"],
-    "solution": "Formic acid",
-    "type": "reasoning"
+    "text": "Consumption of methanol causes blindness due to formation of:",
+    "options": [
+      "A. Formic acid",
+      "B. Formaldehyde",
+      "C. Acetaldehyde",
+      "D. Acetic acid"
+    ],
+    "correct": "A",
+    "solution": "Methanol is metabolized to formaldehyde and then to formic acid, which is toxic and can cause blindness.",
+    "solution_steps": [
+      "1. Methanol is oxidized in the liver: \\( CH_3OH \\rightarrow HCHO \\rightarrow HCOOH \\)",
+      "2. Formic acid inhibits mitochondrial cytochrome oxidase.",
+      "3. Toxicity affects the optic nerve, causing blindness."
+    ]
   },
   {
     "id": "q4",
-    "question": "Denatured spirit is ethanol mixed with:",
-    "options": ["Methanol", "Benzene", "Pyridine", "All of these"],
-    "solution": "All of these",
-    "type": "conceptual"
+    "text": "Denatured spirit is ethanol mixed with:",
+    "options": [
+      "A. Methanol",
+      "B. Benzene",
+      "C. Pyridine",
+      "D. All of these"
+    ],
+    "correct": "D",
+    "solution": "Denatured alcohol is ethanol made unfit for drinking by adding toxic substances like methanol, benzene, or pyridine.",
+    "solution_steps": [
+      "1. Ethanol is mixed with small amounts of toxic compounds.",
+      "2. This prevents human consumption but retains its industrial uses.",
+      "3. The mixture is called denatured spirit."
+    ]
   },
   {
     "id": "q5",
-    "question": "Which commercially important alcohol is used as antifreeze in automobiles?",
-    "options": ["Methanol", "Ethanol", "Ethylene glycol", "Glycerol"],
-    "solution": "Ethylene glycol",
-    "type": "conceptual"
+    "text": "Which commercially important alcohol is used as antifreeze in automobiles?",
+    "options": [
+      "A. Methanol",
+      "B. Ethanol",
+      "C. Ethylene glycol",
+      "D. Glycerol"
+    ],
+    "correct": "C",
+    "solution": "Ethylene glycol is used as antifreeze because it lowers the freezing point and raises the boiling point of water in cooling systems.",
+    "solution_steps": [
+      "1. Ethylene glycol mixes with water in radiators.",
+      "2. Freezing point is depressed; boiling point is elevated.",
+      "3. Prevents freezing or overheating of engines."
+    ]
   },
   {
     "id": "q6",
-    "question": "Oxidation of ethylene glycol with periodic acid (HIO₄) gives:",
-    "options": ["Formaldehyde", "Acetaldehyde", "Glyoxal", "Acetic acid"],
-    "solution": "Formaldehyde",
-    "type": "product-prediction"
+    "text": "Oxidation of ethylene glycol with periodic acid (HIO₄) gives:",
+    "options": [
+      "A. Formaldehyde",
+      "B. Acetaldehyde",
+      "C. Glyoxal",
+      "D. Acetic acid"
+    ],
+    "correct": "C",
+    "solution": "Periodic acid cleaves the C–C bond of vicinal diols, producing aldehydes. Ethylene glycol gives glyoxal (CHO–CHO).",
+    "solution_steps": [
+      "1. \\( HO–CH_2–CH_2–OH + HIO_4 \\rightarrow OHC–CHO + H_2O \\)",
+      "2. The C–C bond between the hydroxyl groups is cleaved.",
+      "3. Glyoxal is formed as the aldehyde product."
+    ]
   },
   {
     "id": "q7",
-    "question": "Which alcohol is used in the preparation of dynamite (as glycerol trinitrate)?",
-    "options": ["Methanol", "Ethanol", "Glycerol", "Propanol"],
-    "solution": "Glycerol",
-    "type": "reaction"
+    "text": "Which alcohol is used in the preparation of dynamite (as glycerol trinitrate)?",
+    "options": [
+      "A. Methanol",
+      "B. Ethanol",
+      "C. Glycerol",
+      "D. Propanol"
+    ],
+    "correct": "C",
+    "solution": "Glycerol (1,2,3-propane-triol) reacts with concentrated nitric acid to form nitroglycerin, the explosive component of dynamite.",
+    "solution_steps": [
+      "1. Glycerol + HNO₃/H₂SO₄ → Glycerol trinitrate + H₂O",
+      "2. Nitroglycerin is sensitive to shock.",
+      "3. Used as explosive in dynamite."
+    ]
   },
   {
     "id": "q8",
-    "question": "The antiseptic property of ethanol is due to its ability to:",
+    "text": "The antiseptic property of ethanol is due to its ability to:",
     "options": [
-      "Form hydrogen bonds",
-      "Coagulate proteins",
-      "Form aldehydes on oxidation",
-      "Act as a reducing agent"
+      "A. Form hydrogen bonds",
+      "B. Coagulate proteins",
+      "C. Form aldehydes on oxidation",
+      "D. Act as a reducing agent"
     ],
-    "solution": "Coagulate proteins",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "Ethanol denatures and coagulates proteins in microbial cells, leading to their death.",
+    "solution_steps": [
+      "1. Ethanol disrupts the tertiary and quaternary structure of proteins.",
+      "2. Proteins precipitate and lose biological activity.",
+      "3. This kills bacteria and viruses, giving antiseptic properties."
+    ]
   },
   {
     "id": "q9",
-    "question": "Which alcohol is used in cosmetics and pharmaceutical preparations due to its hygroscopic nature?",
-    "options": ["Methanol", "Ethanol", "Ethylene glycol", "Glycerol"],
-    "solution": "Glycerol",
-    "type": "conceptual"
+    "text": "Which alcohol is used in cosmetics and pharmaceutical preparations due to its hygroscopic nature?",
+    "options": [
+      "A. Methanol",
+      "B. Ethanol",
+      "C. Ethylene glycol",
+      "D. Glycerol"
+    ],
+    "correct": "D",
+    "solution": "Glycerol is hygroscopic; it absorbs water and keeps products moist, making it useful in cosmetics and medicines.",
+    "solution_steps": [
+      "1. Glycerol absorbs moisture from the air.",
+      "2. It prevents drying of creams and lotions.",
+      "3. Enhances stability of pharmaceutical preparations."
+    ]
   },
   {
     "id": "q10",
-    "question": "Oxidation of glycerol with strong oxidizing agents like HNO₃ gives:",
-    "options": ["Formic acid", "Acetic acid", "Oxalic acid", "Tartaric acid"],
-    "solution": "Oxalic acid",
-    "type": "product-prediction"
+    "text": "Oxidation of glycerol with strong oxidizing agents like HNO₃ gives:",
+    "options": [
+      "A. Formic acid",
+      "B. Acetic acid",
+      "C. Oxalic acid",
+      "D. Tartaric acid"
+    ],
+    "correct": "C",
+    "solution": "Glycerol oxidizes with nitric acid to give oxalic acid, through stepwise oxidation of the primary alcohol groups.",
+    "solution_steps": [
+      "1. Glycerol: \\( HOCH_2–CHOH–CH_2OH \\)",
+      "2. Oxidation with HNO₃ converts primary alcohols to carboxylic acids.",
+      "3. The product is oxalic acid (HOOC–COOH)."
+    ]
   }
 ]
+
 ;
 
 
