@@ -112,90 +112,176 @@
 const Q = [
   {
     "id": "q1",
-    "question": "In the laboratory, ethers are prepared by acid-catalyzed dehydration of alcohols. Which acid is commonly used?",
-    "options": ["H₂SO₄", "HCl", "HNO₃", "H₃PO₄"],
-    "solution": "H₂SO₄",
-    "type": "reaction"
+    "text": "In the laboratory, ethers are prepared by acid-catalyzed dehydration of alcohols. Which acid is commonly used?",
+    "options": [
+      "A. H₂SO₄",
+      "B. HCl",
+      "C. HNO₃",
+      "D. H₃PO₄"
+    ],
+    "correct": "A",
+    "solution": "Concentrated sulfuric acid (H₂SO₄) is used to catalyze the dehydration of alcohols to form ethers.",
+    "solution_steps": [
+      "1. Alcohol molecules are protonated by H₂SO₄.",
+      "2. Water is eliminated to form the ether linkage.",
+      "3. Reaction conditions are controlled to favor ether formation."
+    ]
   },
   {
     "id": "q2",
-    "question": "At what temperature does dehydration of alcohols favor ether formation instead of alkene formation?",
-    "options": ["100–140 °C", "170 °C", "200 °C", "250 °C"],
-    "solution": "100–140 °C",
-    "type": "conceptual"
+    "text": "At what temperature does dehydration of alcohols favor ether formation instead of alkene formation?",
+    "options": [
+      "A. 100–140 °C",
+      "B. 170 °C",
+      "C. 200 °C",
+      "D. 250 °C"
+    ],
+    "correct": "A",
+    "solution": "Ether formation from alcohols via acid-catalyzed dehydration is favored at 100–140 °C, whereas higher temperatures favor alkene formation.",
+    "solution_steps": [
+      "1. Low temperature slows elimination reactions.",
+      "2. Alcohols combine to form ether instead of losing water to form alkenes.",
+      "3. Controlled heating is key for selective ether formation."
+    ]
   },
   {
     "id": "q3",
-    "question": "In Williamson synthesis, an alkoxide reacts with:",
-    "options": ["Alkyl chloride", "Alkyl halide", "Alkene", "Alcohol"],
-    "solution": "Alkyl halide",
-    "type": "reaction"
+    "text": "In Williamson synthesis, an alkoxide reacts with:",
+    "options": [
+      "A. Alkyl chloride",
+      "B. Alkyl halide",
+      "C. Alkene",
+      "D. Alcohol"
+    ],
+    "correct": "B",
+    "solution": "In Williamson ether synthesis, the alkoxide ion acts as a nucleophile and reacts with an alkyl halide via an SN2 reaction to form an ether.",
+    "solution_steps": [
+      "1. The alcohol is deprotonated to form the alkoxide ion.",
+      "2. The alkoxide ion attacks the carbon of the alkyl halide.",
+      "3. Halide leaves and the ether is formed: \\( R–O⁻ + R'–X → R–O–R' + X⁻ \\)"
+    ]
   },
   {
     "id": "q4",
-    "question": "Why is Williamson ether synthesis not suitable for preparing aryl ethers using aryl halides?",
+    "text": "Why is Williamson ether synthesis not suitable for preparing aryl ethers using aryl halides?",
     "options": [
-      "Aryl halides are too reactive",
-      "Aryl halides undergo elimination",
-      "C–X bond in aryl halides is stronger and resists SN2",
-      "Aryl halides form unstable carbocations"
+      "A. Aryl halides are too reactive",
+      "B. Aryl halides undergo elimination",
+      "C. C–X bond in aryl halides is stronger and resists SN2",
+      "D. Aryl halides form unstable carbocations"
     ],
-    "solution": "C–X bond in aryl halides is stronger and resists SN2",
-    "type": "reasoning"
+    "correct": "C",
+    "solution": "The C–X bond in aryl halides is strong and sp² hybridized, which resists nucleophilic substitution (SN2), making Williamson synthesis unsuitable.",
+    "solution_steps": [
+      "1. SN2 reactions require backside attack on sp³ carbon.",
+      "2. Aryl halides have sp² carbons attached to halogens.",
+      "3. Strong C–X bond prevents substitution, so alternative methods are needed for aryl ethers."
+    ]
   },
   {
     "id": "q5",
-    "question": "What will be the product of reaction: Sodium ethoxide + CH₃Br → ?",
-    "options": ["CH₃CH₂OH", "CH₃CH₂OCH₃", "CH₃CH₃", "CH₃OH"],
-    "solution": "CH₃CH₂OCH₃",
-    "type": "product-prediction"
+    "text": "What will be the product of reaction: Sodium ethoxide + CH₃Br → ?",
+    "options": [
+      "A. CH₃CH₂OH",
+      "B. CH₃CH₂OCH₃",
+      "C. CH₃CH₃",
+      "D. CH₃OH"
+    ],
+    "correct": "B",
+    "solution": "Sodium ethoxide reacts with methyl bromide to form ethyl methyl ether via SN2 reaction.",
+    "solution_steps": [
+      "1. CH₃CH₂O⁻ attacks the methyl carbon of CH₃Br.",
+      "2. Bromide leaves as a leaving group.",
+      "3. Product formed is CH₃CH₂OCH₃ (methyl ethyl ether)."
+    ]
   },
   {
     "id": "q6",
-    "question": "Which of the following ethers can be prepared by Williamson synthesis?",
+    "text": "Which of the following ethers can be prepared by Williamson synthesis?",
     "options": [
-      "Anisole (C₆H₅OCH₃)",
-      "Diphenyl ether (C₆H₅OC₆H₅)",
-      "Both Anisole and Diphenyl ether",
-      "None of these"
+      "A. Anisole (C₆H₅OCH₃)",
+      "B. Diphenyl ether (C₆H₅OC₆H₅)",
+      "C. Both Anisole and Diphenyl ether",
+      "D. None of these"
     ],
-    "solution": "Anisole (C₆H₅OCH₃)",
-    "type": "conceptual"
+    "correct": "A",
+    "solution": "Anisole can be prepared by reacting sodium phenoxide with methyl iodide. Diphenyl ether cannot be prepared easily because aryl halides resist SN2 reaction.",
+    "solution_steps": [
+      "1. Sodium phenoxide (C₆H₅O⁻ Na⁺) is generated from phenol.",
+      "2. React with CH₃I to form C₆H₅OCH₃ (anisole).",
+      "3. Diphenyl ether requires alternative methods since aryl halides are unreactive in SN2."
+    ]
   },
   {
     "id": "q7",
-    "question": "In Williamson synthesis, if a tertiary alkyl halide is used, the major product formed will be:",
-    "options": ["Ether", "Alcohol", "Alkene (via elimination)", "Ester"],
-    "solution": "Alkene (via elimination)",
-    "type": "reasoning"
+    "text": "In Williamson synthesis, if a tertiary alkyl halide is used, the major product formed will be:",
+    "options": [
+      "A. Ether",
+      "B. Alcohol",
+      "C. Alkene (via elimination)",
+      "D. Ester"
+    ],
+    "correct": "C",
+    "solution": "Tertiary alkyl halides favor elimination (E2) over substitution (SN2) due to steric hindrance, forming alkenes instead of ethers.",
+    "solution_steps": [
+      "1. SN2 is hindered by bulky tertiary carbon.",
+      "2. Alkoxide acts as a base, abstracting a proton.",
+      "3. Elimination leads to formation of alkene."
+    ]
   },
   {
     "id": "q8",
-    "question": "When ethanol undergoes acid-catalyzed dehydration at 443 K, the major product is:",
-    "options": ["Diethyl ether", "Ethene", "Acetaldehyde", "Ethyl acetate"],
-    "solution": "Diethyl ether",
-    "type": "reaction"
+    "text": "When ethanol undergoes acid-catalyzed dehydration at 443 K, the major product is:",
+    "options": [
+      "A. Diethyl ether",
+      "B. Ethene",
+      "C. Acetaldehyde",
+      "D. Ethyl acetate"
+    ],
+    "correct": "A",
+    "solution": "At 443 K, ethanol reacts under acid catalysis to form diethyl ether by intermolecular dehydration.",
+    "solution_steps": [
+      "1. Ethanol is protonated by H₂SO₄.",
+      "2. Water is eliminated from two ethanol molecules.",
+      "3. The ether, CH₃CH₂OCH₂CH₃, is formed."
+    ]
   },
   {
     "id": "q9",
-    "question": "Which step in Williamson ether synthesis is nucleophilic substitution?",
+    "text": "Which step in Williamson ether synthesis is nucleophilic substitution?",
     "options": [
-      "Formation of alkoxide ion",
-      "Attack of alkoxide on alkyl halide",
-      "Protonation of ether",
-      "Dehydration of alcohol"
+      "A. Formation of alkoxide ion",
+      "B. Attack of alkoxide on alkyl halide",
+      "C. Protonation of ether",
+      "D. Dehydration of alcohol"
     ],
-    "solution": "Attack of alkoxide on alkyl halide",
-    "type": "conceptual"
+    "correct": "B",
+    "solution": "The nucleophilic substitution step is the attack of the alkoxide ion on the alkyl halide (SN2 reaction) to form the ether.",
+    "solution_steps": [
+      "1. Alkoxide is generated from alcohol and base.",
+      "2. Alkoxide attacks the carbon of alkyl halide.",
+      "3. Leaving group departs, forming the ether."
+    ]
   },
   {
     "id": "q10",
-    "question": "Sodium phenoxide reacts with methyl iodide to give:",
-    "options": ["Phenol", "Benzyl alcohol", "Anisole", "Diphenyl ether"],
-    "solution": "Anisole",
-    "type": "product-prediction"
+    "text": "Sodium phenoxide reacts with methyl iodide to give:",
+    "options": [
+      "A. Phenol",
+      "B. Benzyl alcohol",
+      "C. Anisole",
+      "D. Diphenyl ether"
+    ],
+    "correct": "C",
+    "solution": "Sodium phenoxide reacts with methyl iodide to form anisole (C₆H₅OCH₃) via Williamson ether synthesis.",
+    "solution_steps": [
+      "1. Sodium phenoxide: C₆H₅O⁻ Na⁺",
+      "2. Methyl iodide: CH₃I",
+      "3. SN2 reaction occurs: C₆H₅O⁻ + CH₃I → C₆H₅OCH₃ + I⁻"
+    ]
   }
 ]
+
 ;
 
 
