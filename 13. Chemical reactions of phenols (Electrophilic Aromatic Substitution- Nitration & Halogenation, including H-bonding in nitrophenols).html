@@ -65,7 +65,7 @@
 <div id="quiz-container">
 
 
-  <h2> Quiz – 13. Chemical reactions of phenols (Electrophilic Aromatic Substitution- Nitration & Halogenation, including H-bonding in nitrophenols)</h2>
+  <h2> Quiz – 13. Chemical reactions of phenols (Electrophilic Aromatic Substitution: Nitration & Halogenation, including H-bonding in nitrophenols)</h2>
   
   
   <p><strong>Time Elapsed:</strong> <span id="timer">00:00</span></p>
@@ -112,100 +112,174 @@
 const Q = [
   {
     "id": "q1",
-    "question": "Phenol undergoes nitration with dilute HNO₃ at room temperature to give mainly:",
-    "options": ["o-Nitrophenol", "p-Nitrophenol", "m-Nitrophenol", "Nitrobenzene"],
-    "solution": "o-Nitrophenol and p-Nitrophenol",
-    "type": "reaction"
+    "text": "Phenol undergoes nitration with dilute \\( HNO_3 \\) at room temperature to give mainly which compound as the major product?",
+    "options": [
+      "A. o-Nitrophenol",
+      "B. p-Nitrophenol",
+      "C. m-Nitrophenol",
+      "D. Nitrobenzene"
+    ],
+    "correct": "B",
+    "solution": "When phenol reacts with dilute \\( HNO_3 \\), both o- and p-nitrophenol are formed, but p-nitrophenol is the major product due to less steric hindrance.",
+    "solution_steps": [
+      "1. The –OH group activates the ring at ortho and para positions.",
+      "2. Electrophilic substitution occurs at both sites, forming o- and p-nitrophenol.",
+      "3. p-Nitrophenol is the major product because it is less sterically hindered and more stable."
+    ]
   },
   {
     "id": "q2",
-    "question": "Why does phenol undergo electrophilic substitution reactions more easily than benzene?",
+    "text": "Why does phenol undergo electrophilic substitution reactions more easily than benzene?",
     "options": [
-      "Due to –OH group donating electrons by resonance",
-      "Due to –OH group withdrawing electrons by induction",
-      "Due to steric hindrance of –OH group",
-      "Due to high electronegativity of oxygen"
+      "A. Due to –OH group donating electrons by resonance",
+      "B. Due to –OH group withdrawing electrons by induction",
+      "C. Due to steric hindrance of –OH group",
+      "D. Due to high electronegativity of oxygen"
     ],
-    "solution": "Due to –OH group donating electrons by resonance",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "The –OH group activates the ring by donating electrons through resonance, increasing reactivity toward electrophiles.",
+    "solution_steps": [
+      "1. Lone pair on oxygen delocalizes into the benzene ring.",
+      "2. This increases electron density at ortho and para positions.",
+      "3. Electrophiles attack these activated sites easily."
+    ]
   },
   {
     "id": "q3",
-    "question": "Which hydrogen bonding type stabilizes o-nitrophenol?",
-    "options": ["Intermolecular H-bonding", "Intramolecular H-bonding", "Both", "None"],
-    "solution": "Intramolecular H-bonding",
-    "type": "conceptual"
+    "text": "Which hydrogen bonding type stabilizes o-nitrophenol?",
+    "options": [
+      "A. Intermolecular hydrogen bonding",
+      "B. Intramolecular hydrogen bonding",
+      "C. Both",
+      "D. None"
+    ],
+    "correct": "B",
+    "solution": "o-Nitrophenol is stabilized by intramolecular hydrogen bonding between the –OH and –NO₂ groups.",
+    "solution_steps": [
+      "1. In o-nitrophenol, –OH and –NO₂ groups are adjacent on the ring.",
+      "2. A hydrogen bond forms within the same molecule (intramolecular).",
+      "3. This reduces solubility and increases volatility."
+    ]
   },
   {
     "id": "q4",
-    "question": "Which nitrophenol is steam volatile?",
-    "options": ["o-Nitrophenol", "p-Nitrophenol", "Both", "None"],
-    "solution": "o-Nitrophenol (due to intramolecular H-bonding)",
-    "type": "reasoning"
+    "text": "Which nitrophenol is steam volatile?",
+    "options": [
+      "A. o-Nitrophenol",
+      "B. p-Nitrophenol",
+      "C. Both",
+      "D. None"
+    ],
+    "correct": "A",
+    "solution": "o-Nitrophenol is steam volatile due to intramolecular hydrogen bonding which reduces molecular association.",
+    "solution_steps": [
+      "1. Intramolecular hydrogen bonding in o-nitrophenol prevents strong intermolecular attractions.",
+      "2. Hence, it is less associated and more volatile.",
+      "3. It can be distilled with steam easily."
+    ]
   },
   {
     "id": "q5",
-    "question": "When phenol is treated with Br₂ water, the product formed is:",
+    "text": "When phenol is treated with \\( Br_2 \\) water, the product formed is:",
     "options": [
-      "o-Bromophenol",
-      "p-Bromophenol",
-      "2,4,6-Tribromophenol",
-      "Bromobenzene"
+      "A. o-Bromophenol",
+      "B. p-Bromophenol",
+      "C. 2,4,6-Tribromophenol",
+      "D. Bromobenzene"
     ],
-    "solution": "2,4,6-Tribromophenol",
-    "type": "reaction"
+    "correct": "C",
+    "solution": "Phenol reacts with bromine water to form 2,4,6-tribromophenol as a white precipitate.",
+    "solution_steps": [
+      "1. The –OH group strongly activates ortho and para positions.",
+      "2. Bromine substitutes all activated positions when bromine water is used.",
+      "3. The white precipitate formed is 2,4,6-tribromophenol."
+    ]
   },
   {
     "id": "q6",
-    "question": "Why does phenol react with Br₂ water to give tribromophenol directly?",
+    "text": "Why does phenol react with \\( Br_2 \\) water to give tribromophenol directly?",
     "options": [
-      "Because –OH is strongly deactivating",
-      "Because –OH group activates ortho and para positions strongly",
-      "Because bromine is a weak electrophile",
-      "Because phenol has a bulky group"
+      "A. Because –OH is strongly deactivating",
+      "B. Because –OH group activates ortho and para positions strongly",
+      "C. Because bromine is a weak electrophile",
+      "D. Because phenol has a bulky group"
     ],
-    "solution": "Because –OH group activates ortho and para positions strongly",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "The –OH group donates electrons by resonance, strongly activating ortho and para positions for multiple bromine substitutions.",
+    "solution_steps": [
+      "1. –OH group increases electron density at ortho and para sites.",
+      "2. Bromine easily substitutes at these positions.",
+      "3. Complete substitution yields tribromophenol."
+    ]
   },
   {
     "id": "q7",
-    "question": "Which product is formed when phenol reacts with bromine in CS₂ (non-polar solvent)?",
+    "text": "Which product is formed when phenol reacts with bromine in \\( CS_2 \\) (non-polar solvent)?",
     "options": [
-      "o-Bromophenol",
-      "p-Bromophenol",
-      "2,4,6-Tribromophenol",
-      "Phenyl bromide"
+      "A. o-Bromophenol",
+      "B. p-Bromophenol",
+      "C. 2,4,6-Tribromophenol",
+      "D. Phenyl bromide"
     ],
-    "solution": "o-Bromophenol and p-Bromophenol",
-    "type": "product-prediction"
+    "correct": "A and B",
+    "solution": "In non-polar solvents, monobromination occurs at ortho and para positions, forming a mixture of o- and p-bromophenol.",
+    "solution_steps": [
+      "1. Non-polar solvent reduces bromine reactivity.",
+      "2. Only one bromine atom substitutes.",
+      "3. Products: o-bromophenol and p-bromophenol."
+    ]
   },
   {
     "id": "q8",
-    "question": "Which compound shows higher solubility in water?",
-    "options": ["o-Nitrophenol", "p-Nitrophenol"],
-    "solution": "p-Nitrophenol (due to intermolecular H-bonding with water)",
-    "type": "conceptual"
+    "text": "Which compound shows higher solubility in water?",
+    "options": [
+      "A. o-Nitrophenol",
+      "B. p-Nitrophenol"
+    ],
+    "correct": "B",
+    "solution": "p-Nitrophenol shows greater solubility due to intermolecular hydrogen bonding with water molecules.",
+    "solution_steps": [
+      "1. p-Nitrophenol forms hydrogen bonds with water molecules (intermolecular).",
+      "2. o-Nitrophenol forms intramolecular bonds and is less polar.",
+      "3. Therefore, p-nitrophenol is more soluble."
+    ]
   },
   {
     "id": "q9",
-    "question": "During nitration of phenol with conc. HNO₃, the major product is:",
-    "options": ["2,4,6-Trinitrophenol (Picric acid)", "o-Nitrophenol", "p-Nitrophenol", "Nitrobenzene"],
-    "solution": "2,4,6-Trinitrophenol (Picric acid)",
-    "type": "reaction"
+    "text": "During nitration of phenol with concentrated \\( HNO_3 \\), the major product is:",
+    "options": [
+      "A. 2,4,6-Trinitrophenol (Picric acid)",
+      "B. o-Nitrophenol",
+      "C. p-Nitrophenol",
+      "D. Nitrobenzene"
+    ],
+    "correct": "A",
+    "solution": "Phenol reacts with concentrated \\( HNO_3 \\) to give 2,4,6-trinitrophenol, known as picric acid.",
+    "solution_steps": [
+      "1. Strong nitrating mixture introduces three –NO₂ groups.",
+      "2. Substitution occurs at ortho and para positions due to activation by –OH.",
+      "3. The final product is 2,4,6-trinitrophenol (picric acid)."
+    ]
   },
   {
     "id": "q10",
-    "question": "Why is picric acid (2,4,6-trinitrophenol) highly acidic?",
+    "text": "Why is picric acid (2,4,6-trinitrophenol) highly acidic?",
     "options": [
-      "Due to intramolecular H-bonding",
-      "Due to resonance stabilization of phenoxide ion by –NO₂ groups",
-      "Because of steric hindrance",
-      "Because of its aromaticity"
+      "A. Due to intramolecular hydrogen bonding",
+      "B. Due to resonance stabilization of phenoxide ion by –NO₂ groups",
+      "C. Because of steric hindrance",
+      "D. Because of its aromaticity"
     ],
-    "solution": "Due to resonance stabilization of phenoxide ion by –NO₂ groups",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "The –NO₂ groups stabilize the phenoxide ion by resonance and strong –I effect, enhancing acidity.",
+    "solution_steps": [
+      "1. The three –NO₂ groups withdraw electrons, stabilizing the phenoxide ion.",
+      "2. Delocalization of negative charge increases acidity.",
+      "3. Hence, picric acid is a strong acid among phenols."
+    ]
   }
 ]
+
 ;
 
 
