@@ -112,155 +112,259 @@
 const Q = [
   {
     "id": "q1",
-    "question": "When ethers react with HI, what is the first bond to be cleaved?",
-    "options": ["C–H bond", "C–O bond", "O–H bond", "C–C bond"],
-    "solution": "C–O bond",
-    "type": "conceptual"
+    "text": "When ethers react with HI, what is the first bond to be cleaved?",
+    "options": [
+      "A. C–H bond",
+      "B. C–O bond",
+      "C. O–H bond",
+      "D. C–C bond"
+    ],
+    "correct": "B",
+    "solution": "The C–O bond in ethers is cleaved first when treated with HI.",
+    "solution_steps": [
+      "1. Protonation of the oxygen atom by HI increases the electrophilicity of the C–O bond.",
+      "2. Cleavage occurs at the C–O bond to form alkyl iodide and alcohol/phenol."
+    ]
   },
   {
     "id": "q2",
-    "question": "Diethyl ether reacts with excess HI to give:",
-    "options": ["Ethanol", "Ethyl iodide + HI", "Ethyl iodide + water", "Only ethyl iodide"],
-    "solution": "Ethyl iodide + water",
-    "type": "reaction"
+    "text": "Diethyl ether reacts with excess HI to give:",
+    "options": [
+      "A. Ethanol",
+      "B. Ethyl iodide + HI",
+      "C. Ethyl iodide + water",
+      "D. Only ethyl iodide"
+    ],
+    "correct": "C",
+    "solution": "Diethyl ether reacts with HI to give two moles of ethyl iodide and one mole of water.",
+    "solution_steps": [
+      "1. Protonation of ether oxygen by HI.",
+      "2. Cleavage of C–O bond forms ethyl iodide and ethanol.",
+      "3. Ethanol reacts with HI to give another ethyl iodide and water."
+    ]
   },
   {
     "id": "q3",
-    "question": "When phenyl ethyl ether is treated with HI, the major product is:",
-    "options": ["Ethyl iodide + Phenol", "Phenyl iodide + Ethanol", "Ethyl alcohol + I₂", "Phenol + Ethyl alcohol"],
-    "solution": "Ethyl iodide + Phenol",
-    "type": "product-prediction"
+    "text": "When phenyl ethyl ether is treated with HI, the major product is:",
+    "options": [
+      "A. Ethyl iodide + Phenol",
+      "B. Phenyl iodide + Ethanol",
+      "C. Ethyl alcohol + I₂",
+      "D. Phenol + Ethyl alcohol"
+    ],
+    "correct": "A",
+    "solution": "The C–O bond between the ethyl group and oxygen is cleaved, giving ethyl iodide and phenol.",
+    "solution_steps": [
+      "1. Protonation of the ether oxygen by HI.",
+      "2. Cleavage occurs at the C–O bond connected to the alkyl group (ethyl).",
+      "3. Products are ethyl iodide and phenol."
+    ]
   },
   {
     "id": "q4",
-    "question": "Why do aryl ethers on cleavage with HI produce phenol rather than aryl iodide?",
+    "text": "Why do aryl ethers on cleavage with HI produce phenol rather than aryl iodide?",
     "options": [
-      "Phenyl–O bond is stronger",
-      "C–I bond is unstable in aryl group",
-      "Aryl halides do not undergo SN2 cleavage easily",
-      "Phenol is more stable"
+      "A. Phenyl–O bond is stronger",
+      "B. C–I bond is unstable in aryl group",
+      "C. Aryl halides do not undergo SN2 cleavage easily",
+      "D. Phenol is more stable"
     ],
-    "solution": "Aryl halides do not undergo SN2 cleavage easily",
-    "type": "reasoning"
+    "correct": "C",
+    "solution": "Aryl halides resist SN2 cleavage due to the sp² hybridized carbon, so cleavage occurs to give phenol instead of aryl iodide.",
+    "solution_steps": [
+      "1. Aryl halides are poor substrates for SN2 reactions.",
+      "2. Protonation of ether oxygen makes the alkyl group leave.",
+      "3. Phenol is formed, not aryl iodide."
+    ]
   },
   {
     "id": "q5",
-    "question": "In electrophilic substitution of anisole, substitution occurs mainly at:",
-    "options": ["Ortho and para positions", "Meta position", "Only ortho position", "Only para position"],
-    "solution": "Ortho and para positions",
-    "type": "conceptual"
+    "text": "In electrophilic substitution of anisole, substitution occurs mainly at:",
+    "options": [
+      "A. Ortho and para positions",
+      "B. Meta position",
+      "C. Only ortho position",
+      "D. Only para position"
+    ],
+    "correct": "A",
+    "solution": "The –OCH₃ group is an electron-donating group, activating the ortho and para positions for electrophilic substitution.",
+    "solution_steps": [
+      "1. Lone pair on oxygen delocalizes into the benzene ring.",
+      "2. Electron density increases at ortho and para positions.",
+      "3. Electrophiles preferentially attack these positions."
+    ]
   },
   {
     "id": "q6",
-    "question": "During nitration of anisole, the major product is:",
-    "options": ["o-nitroanisole", "p-nitroanisole", "m-nitroanisole", "mixture of ortho and para nitroanisole"],
-    "solution": "mixture of ortho and para nitroanisole",
-    "type": "reaction"
+    "text": "During nitration of anisole, the major product is:",
+    "options": [
+      "A. o-nitroanisole",
+      "B. p-nitroanisole",
+      "C. m-nitroanisole",
+      "D. mixture of ortho and para nitroanisole"
+    ],
+    "correct": "D",
+    "solution": "Nitration of anisole gives a mixture of ortho and para nitro derivatives due to activation by the –OCH₃ group.",
+    "solution_steps": [
+      "1. –OCH₃ group activates ortho and para positions.",
+      "2. Electrophilic NO₂ attacks these positions.",
+      "3. Minor steric effects may favor para slightly, but a mixture is formed."
+    ]
   },
   {
     "id": "q7",
-    "question": "Why is anisole more reactive towards electrophilic substitution than benzene?",
+    "text": "Why is anisole more reactive towards electrophilic substitution than benzene?",
     "options": [
-      "–OCH₃ group is electron withdrawing",
-      "–OCH₃ group activates the ring by resonance and hyperconjugation",
-      "–OCH₃ group decreases electron density at ortho and para positions",
-      "None of these"
+      "A. –OCH₃ group is electron withdrawing",
+      "B. –OCH₃ group activates the ring by resonance and hyperconjugation",
+      "C. –OCH₃ group decreases electron density at ortho and para positions",
+      "D. None of these"
     ],
-    "solution": "–OCH₃ group activates the ring by resonance and hyperconjugation",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "The –OCH₃ group donates electron density via resonance and hyperconjugation, activating the ring for electrophilic substitution.",
+    "solution_steps": [
+      "1. Oxygen lone pair delocalizes into the ring.",
+      "2. Electron density at ortho and para positions increases.",
+      "3. Electrophiles attack more readily than in benzene."
+    ]
   },
   {
     "id": "q8",
-    "question": "When anisole is brominated in the presence of FeBr₃, the major product is:",
-    "options": ["o-bromoanisole", "p-bromoanisole", "m-bromoanisole", "both o- and p-bromoanisole"],
-    "solution": "both o- and p-bromoanisole",
-    "type": "product-prediction"
+    "text": "When anisole is brominated in the presence of FeBr₃, the major product is:",
+    "options": [
+      "A. o-bromoanisole",
+      "B. p-bromoanisole",
+      "C. m-bromoanisole",
+      "D. both o- and p-bromoanisole"
+    ],
+    "correct": "D",
+    "solution": "Bromination of anisole gives both ortho and para products due to activation by the –OCH₃ group.",
+    "solution_steps": [
+      "1. FeBr₃ polarizes Br₂ to form electrophilic Br⁺.",
+      "2. Electrophile attacks ortho and para positions.",
+      "3. Both o- and p-bromoanisole are obtained."
+    ]
   },
   {
     "id": "q9",
-    "question": "In the Friedel–Crafts reaction of anisole with CH₃Cl and AlCl₃, the major products are:",
+    "text": "In the Friedel–Crafts reaction of anisole with CH₃Cl and AlCl₃, the major products are:",
     "options": [
-      "o-methyl anisole and p-methyl anisole",
-      "m-methyl anisole only",
-      "phenol + CH₄",
-      "anisole remains unchanged"
+      "A. o-methyl anisole and p-methyl anisole",
+      "B. m-methyl anisole only",
+      "C. phenol + CH₄",
+      "D. anisole remains unchanged"
     ],
-    "solution": "o-methyl anisole and p-methyl anisole",
-    "type": "reaction"
+    "correct": "A",
+    "solution": "The –OCH₃ group directs the incoming CH₃⁺ electrophile to ortho and para positions, giving o- and p-methyl anisole.",
+    "solution_steps": [
+      "1. AlCl₃ generates the electrophile CH₃⁺ from CH₃Cl.",
+      "2. Electrophile attacks ortho and para positions activated by –OCH₃.",
+      "3. Products formed are o- and p-methyl anisole."
+    ]
   },
   {
     "id": "q10",
-    "question": "What is the effect of the –OCH₃ group on the orientation of electrophilic substitution in anisole?",
+    "text": "What is the effect of the –OCH₃ group on the orientation of electrophilic substitution in anisole?",
     "options": [
-      "It is meta-directing",
-      "It is ortho/para-directing",
-      "It is deactivating",
-      "It has no effect"
+      "A. It is meta-directing",
+      "B. It is ortho/para-directing",
+      "C. It is deactivating",
+      "D. It has no effect"
     ],
-    "solution": "It is ortho/para-directing",
-    "type": "conceptual"
+    "correct": "B",
+    "solution": "The –OCH₃ group is electron donating and activates the ortho and para positions.",
+    "solution_steps": [
+      "1. Oxygen lone pair delocalizes into the ring.",
+      "2. Electron density increases at ortho and para positions.",
+      "3. Electrophiles preferentially attack these positions."
+    ]
   },
   {
     "id": "q11",
-    "question": "Which of the following ethers on cleavage with HI will give only alkyl iodides and no alcohol/phenol?",
+    "text": "Which of the following ethers on cleavage with HI will give only alkyl iodides and no alcohol/phenol?",
     "options": [
-      "Diethyl ether",
-      "Phenyl ethyl ether",
-      "Anisole",
-      "Methyl phenyl ether"
+      "A. Diethyl ether",
+      "B. Phenyl ethyl ether",
+      "C. Anisole",
+      "D. Methyl phenyl ether"
     ],
-    "solution": "Diethyl ether",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "Alkyl ethers like diethyl ether give only alkyl iodides, whereas aryl ethers give phenols.",
+    "solution_steps": [
+      "1. C–O bond cleavage occurs at the alkyl side.",
+      "2. HI reacts to form alkyl iodide.",
+      "3. No phenol is formed for simple alkyl ethers."
+    ]
   },
   {
     "id": "q12",
-    "question": "What is formed when anisole undergoes nitration using HNO₃/H₂SO₄?",
+    "text": "What is formed when anisole undergoes nitration using HNO₃/H₂SO₄?",
     "options": [
-      "m-nitroanisole only",
-      "o- and p-nitroanisole mixture",
-      "Nitrobenzene",
-      "2,4,6-trinitroanisole"
+      "A. m-nitroanisole only",
+      "B. o- and p-nitroanisole mixture",
+      "C. Nitrobenzene",
+      "D. 2,4,6-trinitroanisole"
     ],
-    "solution": "o- and p-nitroanisole mixture",
-    "type": "reaction"
+    "correct": "B",
+    "solution": "Nitration of anisole gives a mixture of ortho and para nitro derivatives due to the –OCH₃ group activation.",
+    "solution_steps": [
+      "1. –OCH₃ activates ortho and para positions.",
+      "2. Electrophilic NO₂ attacks these positions.",
+      "3. Minor steric effects may slightly favor para, but mixture forms."
+    ]
   },
   {
     "id": "q13",
-    "question": "Which of the following statements is correct about cleavage of ethers?",
+    "text": "Which of the following statements is correct about cleavage of ethers?",
     "options": [
-      "Tertiary alkyl ethers cleave more readily than primary alkyl ethers",
-      "Primary alkyl ethers cleave faster due to stable carbocation",
-      "Aryl ethers are easily cleaved",
-      "Ethers are resistant to HI but reactive with HNO₃"
+      "A. Tertiary alkyl ethers cleave more readily than primary alkyl ethers",
+      "B. Primary alkyl ethers cleave faster due to stable carbocation",
+      "C. Aryl ethers are easily cleaved",
+      "D. Ethers are resistant to HI but reactive with HNO₃"
     ],
-    "solution": "Tertiary alkyl ethers cleave more readily than primary alkyl ethers",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "Tertiary alkyl ethers cleave faster due to more stable carbocation formation in the SN1 mechanism.",
+    "solution_steps": [
+      "1. Tertiary carbocation is more stable than primary or secondary.",
+      "2. Cleavage with HI occurs faster for tertiary ethers."
+    ]
   },
   {
     "id": "q14",
-    "question": "Electrophilic substitution in anisole proceeds faster than in benzene because:",
+    "text": "Electrophilic substitution in anisole proceeds faster than in benzene because:",
     "options": [
-      "OCH₃ group decreases resonance",
-      "OCH₃ group increases electron density at ortho and para positions",
-      "OCH₃ group withdraws electrons through –I effect",
-      "Anisole is less stable"
+      "A. OCH₃ group decreases resonance",
+      "B. OCH₃ group increases electron density at ortho and para positions",
+      "C. OCH₃ group withdraws electrons through –I effect",
+      "D. Anisole is less stable"
     ],
-    "solution": "OCH₃ group increases electron density at ortho and para positions",
-    "type": "conceptual"
+    "correct": "B",
+    "solution": "The –OCH₃ group donates electron density to the ring, enhancing reactivity at ortho and para positions.",
+    "solution_steps": [
+      "1. Resonance donation from oxygen increases electron density.",
+      "2. Ortho and para positions are more nucleophilic.",
+      "3. Electrophilic attack occurs faster than in benzene."
+    ]
   },
   {
     "id": "q15",
-    "question": "When anisole undergoes halogenation without a catalyst (Br₂ in CS₂), the major product is:",
+    "text": "When anisole undergoes halogenation without a catalyst (Br₂ in CS₂), the major product is:",
     "options": [
-      "o-bromoanisole",
-      "p-bromoanisole",
-      "mixture of ortho and para bromoanisole",
-      "tribromoanisole"
+      "A. o-bromoanisole",
+      "B. p-bromoanisole",
+      "C. mixture of ortho and para bromoanisole",
+      "D. tribromoanisole"
     ],
-    "solution": "p-bromoanisole",
-    "type": "product-prediction"
+    "correct": "B",
+    "solution": "Without a catalyst, bromination occurs mainly at the para position due to steric hindrance at ortho positions.",
+    "solution_steps": [
+      "1. Br₂ reacts slowly with anisole in absence of catalyst.",
+      "2. Steric hindrance reduces ortho substitution.",
+      "3. Para-bromoanisole is formed as the major product."
+    ]
   }
 ]
+
 ;
 
 
