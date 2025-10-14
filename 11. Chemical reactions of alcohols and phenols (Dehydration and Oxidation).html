@@ -112,110 +112,179 @@
 const Q = [
   {
     "id": "q1",
-    "question": "What is the general product of dehydration of alcohols?",
+    "text": "What is the general product of dehydration of alcohols?",
     "options": ["Alkane", "Alkene", "Aldehyde", "Ketone"],
-    "solution": "Alkene",
-    "type": "reaction"
+    "correct": "B",
+    "solution": "Dehydration of alcohols removes a molecule of water, forming an alkene.",
+    "solution_steps": [
+      "1. Alcohol is heated with a strong acid like H₂SO₄.",
+      "2. Protonation of –OH occurs forming a better leaving group (H₂O).",
+      "3. Water molecule leaves, forming a carbocation intermediate.",
+      "4. Deprotonation leads to formation of an alkene."
+    ]
   },
   {
     "id": "q2",
-    "question": "Which catalyst is commonly used in the dehydration of alcohols?",
+    "text": "Which catalyst is commonly used in the dehydration of alcohols?",
     "options": ["Conc. H₂SO₄", "Dil. HCl", "ZnCl₂", "NaOH"],
-    "solution": "Conc. H₂SO₄",
-    "type": "conceptual"
+    "correct": "A",
+    "solution": "Concentrated sulfuric acid (H₂SO₄) acts as a dehydrating agent, promoting removal of water from alcohols.",
+    "solution_steps": [
+      "1. H₂SO₄ protonates the hydroxyl group.",
+      "2. The –OH group leaves as H₂O.",
+      "3. A double bond is formed (alkene generation)."
+    ]
   },
   {
     "id": "q3",
-    "question": "The dehydration of alcohols generally follows which mechanism?",
+    "text": "The dehydration of alcohols generally follows which mechanism?",
     "options": ["E1 mechanism", "E2 mechanism", "SN1 mechanism", "SN2 mechanism"],
-    "solution": "E1 mechanism",
-    "type": "conceptual"
+    "correct": "A",
+    "solution": "Most alcohols (especially secondary and tertiary) undergo dehydration by the E1 mechanism via carbocation formation.",
+    "solution_steps": [
+      "1. Protonation of –OH group.",
+      "2. Departure of H₂O to form carbocation.",
+      "3. Deprotonation of β-hydrogen forming a double bond."
+    ]
   },
   {
     "id": "q4",
-    "question": "Arrange the ease of dehydration for primary, secondary, and tertiary alcohols.",
+    "text": "Arrange the ease of dehydration for primary, secondary, and tertiary alcohols.",
     "options": ["3° > 2° > 1°", "1° > 2° > 3°", "2° > 1° > 3°", "All are equally reactive"],
-    "solution": "3° > 2° > 1°",
-    "type": "reasoning"
+    "correct": "A",
+    "solution": "Tertiary alcohols dehydrate most easily due to the stability of tertiary carbocations formed during reaction.",
+    "solution_steps": [
+      "1. 3° alcohols form most stable carbocations.",
+      "2. Stability decreases from 3° → 2° → 1°.",
+      "3. Hence, reactivity follows: 3° > 2° > 1°."
+    ]
   },
   {
     "id": "q5",
-    "question": "What is the major product formed when butan-2-ol undergoes dehydration?",
+    "text": "What is the major product formed when butan-2-ol undergoes dehydration?",
     "options": ["But-1-ene", "But-2-ene", "Cyclobutane", "Butanal"],
-    "solution": "But-2-ene",
-    "type": "product-prediction"
+    "correct": "B",
+    "solution": "Dehydration of butan-2-ol gives but-2-ene as the major product following Saytzeff’s rule.",
+    "solution_steps": [
+      "1. Butan-2-ol is protonated by acid.",
+      "2. Water leaves forming carbocation at C-2.",
+      "3. Deprotonation occurs to form more substituted alkene (but-2-ene)."
+    ]
   },
   {
     "id": "q6",
-    "question": "Which rule governs the major product formation in alcohol dehydration?",
+    "text": "Which rule governs the major product formation in alcohol dehydration?",
     "options": ["Markovnikov’s rule", "Saytzeff’s rule", "Le Chatelier’s principle", "Wurtz reaction"],
-    "solution": "Saytzeff’s rule",
-    "type": "conceptual"
+    "correct": "B",
+    "solution": "According to Saytzeff’s rule, the more substituted alkene is formed as the major product.",
+    "solution_steps": [
+      "1. Multiple β-hydrogens are available for elimination.",
+      "2. The hydrogen is removed from the carbon with fewer hydrogens.",
+      "3. This forms the more substituted (stable) alkene."
+    ]
   },
   {
     "id": "q7",
-    "question": "Which oxidizing agent is commonly used to oxidize primary alcohols to carboxylic acids?",
+    "text": "Which oxidizing agent is commonly used to oxidize primary alcohols to carboxylic acids?",
     "options": ["PCC", "CrO₃", "KMnO₄", "H₂SO₄"],
-    "solution": "CrO₃",
-    "type": "reaction"
+    "correct": "C",
+    "solution": "Acidified potassium permanganate (KMnO₄) oxidizes primary alcohols completely to carboxylic acids.",
+    "solution_steps": [
+      "1. Primary alcohol → Aldehyde (intermediate).",
+      "2. Aldehyde → Carboxylic acid (final product)."
+    ]
   },
   {
     "id": "q8",
-    "question": "Pyridinium chlorochromate (PCC) oxidizes a primary alcohol to:",
+    "text": "Pyridinium chlorochromate (PCC) oxidizes a primary alcohol to:",
     "options": ["Aldehyde", "Carboxylic acid", "Ketone", "Ester"],
-    "solution": "Aldehyde",
-    "type": "reaction"
+    "correct": "A",
+    "solution": "PCC is a mild oxidizing agent that stops oxidation at the aldehyde stage.",
+    "solution_steps": [
+      "1. PCC oxidizes R–CH₂OH → R–CHO.",
+      "2. Reaction stops before formation of carboxylic acid."
+    ]
   },
   {
     "id": "q9",
-    "question": "What is the product when ethanol is oxidized by PCC?",
+    "text": "What is the product when ethanol is oxidized by PCC?",
     "options": ["Acetic acid", "Ethanal", "Ethene", "Methane"],
-    "solution": "Ethanal",
-    "type": "product-prediction"
+    "correct": "B",
+    "solution": "Ethanol reacts with PCC to form ethanal (acetaldehyde).",
+    "solution_steps": [
+      "1. CH₃CH₂OH + PCC → CH₃CHO + H₂O.",
+      "2. Reaction stops at aldehyde stage without further oxidation."
+    ]
   },
   {
     "id": "q10",
-    "question": "Which alcohol gives acetone upon oxidation?",
+    "text": "Which alcohol gives acetone upon oxidation?",
     "options": ["Ethanol", "Propan-2-ol", "Methanol", "Butan-1-ol"],
-    "solution": "Propan-2-ol",
-    "type": "reaction"
+    "correct": "B",
+    "solution": "Secondary alcohol (propan-2-ol) oxidizes to a ketone (acetone).",
+    "solution_steps": [
+      "1. (CH₃)₂CHOH → (CH₃)₂CO + H₂.",
+      "2. Ketone (acetone) is the oxidation product."
+    ]
   },
   {
     "id": "q11",
-    "question": "What is the product formed when tertiary alcohols are oxidized under normal conditions?",
+    "text": "What is the product formed when tertiary alcohols are oxidized under normal conditions?",
     "options": ["Carboxylic acid", "Ketone", "Aldehyde", "No reaction"],
-    "solution": "No reaction",
-    "type": "conceptual"
+    "correct": "D",
+    "solution": "Tertiary alcohols resist oxidation due to lack of α-hydrogen.",
+    "solution_steps": [
+      "1. No α-hydrogen is available for oxidation.",
+      "2. Hence, no oxidation occurs under normal conditions."
+    ]
   },
   {
     "id": "q12",
-    "question": "When ethanol is heated with Cu at 573 K, the product is:",
+    "text": "When ethanol is heated with Cu at 573 K, the product is:",
     "options": ["Ethanal", "Ethene", "Acetic acid", "Methane"],
-    "solution": "Ethanal",
-    "type": "reaction"
+    "correct": "A",
+    "solution": "Ethanol undergoes catalytic dehydrogenation to form ethanal (acetaldehyde).",
+    "solution_steps": [
+      "1. CH₃CH₂OH → CH₃CHO + H₂ (in presence of Cu at 573 K).",
+      "2. This is an oxidation reaction forming an aldehyde."
+    ]
   },
   {
     "id": "q13",
-    "question": "Which reagent is more selective for controlled oxidation of alcohols?",
+    "text": "Which reagent is more selective for controlled oxidation of alcohols?",
     "options": ["CrO₃", "KMnO₄", "PCC", "Conc. HNO₃"],
-    "solution": "PCC",
-    "type": "reasoning"
+    "correct": "C",
+    "solution": "PCC is a mild and selective oxidizing agent that converts alcohols to aldehydes or ketones without overoxidation.",
+    "solution_steps": [
+      "1. PCC oxidizes primary alcohols → aldehydes.",
+      "2. It does not oxidize further to acids.",
+      "3. Hence, it offers controlled oxidation."
+    ]
   },
   {
     "id": "q14",
-    "question": "Why is PCC preferred over strong oxidizing agents like CrO₃ for aldehyde preparation?",
+    "text": "Why is PCC preferred over strong oxidizing agents like CrO₃ for aldehyde preparation?",
     "options": ["PCC is cheaper", "PCC prevents further oxidation to carboxylic acids", "PCC works faster", "PCC gives better color change"],
-    "solution": "PCC prevents further oxidation to carboxylic acids",
-    "type": "reasoning"
+    "correct": "B",
+    "solution": "PCC is milder than CrO₃ and stops oxidation at the aldehyde stage, avoiding overoxidation.",
+    "solution_steps": [
+      "1. Strong oxidizers (CrO₃, KMnO₄) convert aldehydes to acids.",
+      "2. PCC stops at aldehyde stage due to limited oxygen availability."
+    ]
   },
   {
     "id": "q15",
-    "question": "Oxidation of methanol with Cu at 573 K gives:",
+    "text": "Oxidation of methanol with Cu at 573 K gives:",
     "options": ["Methanal", "Methanoic acid", "Methane", "CO₂"],
-    "solution": "Methanal",
-    "type": "product-prediction"
+    "correct": "A",
+    "solution": "Methanol undergoes dehydrogenation with copper catalyst to form methanal (formaldehyde).",
+    "solution_steps": [
+      "1. CH₃OH → HCHO + H₂ (in presence of Cu at 573 K).",
+      "2. This is a mild oxidation forming aldehyde."
+    ]
   }
 ]
+
 ;
 
 
